@@ -1,0 +1,119 @@
+h1{
+    font-size:35px;
+    color: rgb(216, 49, 141);
+    text-align: center;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    padding-left:10px;
+  width:70%;
+  display:inline-block;
+  box-sizing:border-box;
+  text-align: center;
+}
+.lines {
+    text-align: center;
+}
+.back-img{
+   margin: 0;
+    background-color: rgb(252, 240, 223);
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column-1 {
+    float: left;
+    width: 50%;
+    text-align:end;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .column-2 {
+    float: right;
+    width: 50%;
+    text-align:start;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*card details:------------*/
+* {
+    box-sizing: border-box;
+  }
+  
+ html, body {
+  margin: 0;
+  height: 100%;
+    background-color: rgb(252, 240, 223);
+
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+  .column h4{
+    color: rgb(30, 128, 21);
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  .card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 38px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 1px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .card-4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 9px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

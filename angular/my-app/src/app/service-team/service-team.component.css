@@ -1,0 +1,58 @@
+.headline p{
+    color: rgb(62, 98, 216);
+    text-align: center;
+    font-size:x-large;
+}
+
+
+
+.img_deg
+ {
+    float: left;
+    width: 50%;
+    text-align:end;
+    padding: 10px;
+    height: 500px;
+}
+
+.text {
+    float: right;
+    width: 50%;
+    text-align:start;
+    padding: 10px;
+    height: 300px;
+
+}
+
+h2{
+    float:center;
+    color: rgb(13, 77, 5);
+    
+}
+h4{
+    color: darkorange;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: center;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .button1:hover {
+    background-color: #eeaf50;
+    color: rgb(15, 15, 15);
+  }

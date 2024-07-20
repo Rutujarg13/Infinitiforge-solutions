@@ -1,0 +1,30 @@
+#sect1 {
+   height: 900px;
+   
+    color: #fff;
+    background-image: url("../../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+    color: rgb(255, 81, 0);
+    text-align: center;
+  }
+
+  .line {
+    font-size:30px;
+    color: #e9e1e1;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
